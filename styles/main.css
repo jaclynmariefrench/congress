@@ -1,0 +1,64 @@
+
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    flex-direction: row;
+    
+}
+
+.h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    flex-direction: row;  
+}
+
+.topwebsite {
+    display:flex;
+    
+}
+
+.picture {
+    border: 5px solid black;
+    border-color: tomato;
+    text-align: left;
+}
+
+.linkTitle {
+    font-size: 20px;
+    text-align: right;
+    border: 5px solid gray;
+    flex-direction: column;
+    margin: 1em;
+    width: 500px;
+    order: 3;
+    
+}
+
+.hyperlinks {
+    font-size: 15px;
+    text-align: left;
+    border: 5px solid black;
+    flex-direction: column;
+    margin: 2em;
+    padding: 20px;
+    line-height: 3;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+}
